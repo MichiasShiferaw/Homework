@@ -10,4 +10,6 @@ def open_file():
             file_name=input("Enter the name of the file: ").strip()
             f=open(file_name,'r')
             return f
-        
+        except FileNotFoundError:
+            print("There is no file with that name. Try again.")
+    pass        
