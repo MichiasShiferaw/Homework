@@ -7,3 +7,7 @@ def open_file():
     '''()->str or None'''
     while True:
         try:
+            file_name=input("Enter the name of the file: ").strip()
+            f=open(file_name,'r')
+            return f
+        
