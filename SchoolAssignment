@@ -1,1 +1,9 @@
 import string
+
+
+def open_file():
+    '''None->file object
+    See the assignment text for what this function should do'''
+    '''()->str or None'''
+    while True:
+        try:
